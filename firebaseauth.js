@@ -4,9 +4,24 @@
  import{getFirestore, setDoc, doc} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"
  
  const firebaseConfig = {
- //YOUR COPIED FIREBASE PART SHOULD BE HERE
- //WATCH THIS VIDEO TO LEARN WHAT TO PUT HERE   https://youtu.be/_Xczf06n6x0
- };
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyDAaVm8bFtqAHwQ1-75KVP38BuWlEIpo8I",
+    authDomain: "anuga-34c33.firebaseapp.com",
+    projectId: "anuga-34c33",
+    storageBucket: "anuga-34c33.firebasestorage.app",
+    messagingSenderId: "953894055739",
+    appId: "1:953894055739:web:4a71ee9b76b78be517d11e"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
 
  // Initialize Firebase
  const app = initializeApp(firebaseConfig);
